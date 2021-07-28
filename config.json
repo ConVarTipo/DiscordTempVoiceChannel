@@ -1,0 +1,15 @@
+{
+    "token": "", // Discord bot token 
+    "categoryID": "", // Server voice channel category id
+    "prefix": "!",
+    "commandChannelName": "", // Channel for commands ( Channel NAME, not ID)
+    "voiceID": "", // 
+    "voiceZona": "", // 
+    "permissions": [{
+        "VIEW_CHANNEL": true, "CONNECT": true, "SPEAK": true, "USE_VAD": false, "PRIORITY_SPEAKER": true,
+        "MANAGE_CHANNELS": true, "MANAGE_ROLES_OR_PERMISSIONS": true, "MOVE_MEMBERS": true
+    }, {
+        "VIEW_CHANNEL": false, "CONNECT": false, "SPEAK": true, "USE_VAD": false, "PRIORITY_SPEAKER": false,
+        "MANAGE_CHANNELS": false, "MANAGE_ROLES_OR_PERMISSIONS": false, "MOVE_MEMBERS": true
+    }]
+}

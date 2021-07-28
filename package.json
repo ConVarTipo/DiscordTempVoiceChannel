@@ -1,0 +1,16 @@
+{
+    "name": "kekervoice",
+    "version": "1.0.0",
+    "description": "KekerBot",
+    "main": "bot.js",
+    "scripts": {
+        "start": "node .",
+		"stop": "node bot.js",
+        "dev": "nodemon ."
+    },
+    "author": "ConVar-",
+    "license": "MIT",
+    "dependencies": {
+        "discord.js": "^12.5.1"
+    }
+}
